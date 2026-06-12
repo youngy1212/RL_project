@@ -24,7 +24,7 @@
 | 항목 | 내용 |
 | --- | --- |
 | 학번/이름 | A74044/윤지영 |
-| PPT 보고서 파일 | [reports/report.pptx](reports/report.pptx) |
+| PPT 보고서 파일 | [results/report.pptx](results/report.pptx) |
 
 모델 파일은 현재 repository 기준으로 다음 경로에 있다.
 
