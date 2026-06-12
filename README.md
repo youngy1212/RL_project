@@ -227,8 +227,6 @@ Local DQN은 자치구별로 독립적으로 학습하고, Global DQN 학습 중
 - `local_dqn_used_count`
 - `local_greedy_fallback_count`
 
-`No Rebalancing`은 saved rental이 0이므로 `distance_per_saved_rental`을 숫자로 비교하지 않고 `N/A`로 해석한다.
-
 ## 8. 비교 정책
 
 1차 실험에서는 자치구 선택만 DQN이 담당하고, 구 내부 이동은 Greedy Local이 수행했다.
@@ -503,12 +501,7 @@ python src/evaluate.py \
 | `models/dqn_bike_rebalancing.zip` | 호환용 최신 DQN 모델 파일 |
 | `models/local_dqn/` | 자치구별 Local DQN 모델과 metadata |
 
-모델 파일이 GitHub 용량 제한 때문에 업로드되지 않는 경우, GitHub Release 또는 Google Drive에 모델을 올리고 README의 제출 정보에 링크를 추가해야 한다.
-
-## 14. PPT 보고서
-
-
-## 15. 한계
+## 14. 한계
 
 본 프로젝트의 한계는 다음과 같다.
 
