@@ -45,6 +45,7 @@ OD 데이터에서는 날짜, 시간대, 시작 대여소 ID, 종료 대여소 I
 
 
 데이터는 용량문제로 구글 드라이브로 대신하였다.
+
 https://drive.google.com/drive/folders/1ykYJoIJ-oWN6jw4ct-_POoF8maoJFH1k?usp=sharing
 
 
@@ -472,23 +473,6 @@ python src/evaluate.py \
   --trucks 10 \
   --truck-capacity 10 \
   --experiment-name hierarchical
-```
-
-### 12.10 전체 파이프라인 실행
-
-[src/train_hierarchical.py](src/train_hierarchical.py)가 존재하므로 전처리 이후 전체 학습/평가를 한 번에 실행할 수 있다.
-
-```bash
-python src/train_hierarchical.py \
-  --processed-dir data/processed \
-  --local-total-timesteps 100000 \
-  --global-total-timesteps 500000 \
-  --episode-length 96 \
-  --move-qty 10 \
-  --k-candidates 5 \
-  --trucks 10 \
-  --truck-capacity 10 \
-  --seed 42
 ```
 
 
