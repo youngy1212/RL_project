@@ -1,0 +1,14 @@
+{
+  "district_id": 4,
+  "district_name": "광진구",
+  "station_count": 23,
+  "train_total_rental_demand": 40768.0,
+  "train_total_return_demand": 40353.0,
+  "total_timesteps": 100000,
+  "episode_length": 96,
+  "move_qty": 10,
+  "k_candidates": 5,
+  "observation_dim": 119,
+  "action_dim": 26,
+  "seed": 42
+}

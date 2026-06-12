@@ -1,0 +1,14 @@
+{
+  "district_id": 19,
+  "district_name": "동작구",
+  "station_count": 45,
+  "train_total_rental_demand": 107014.0,
+  "train_total_return_demand": 107874.0,
+  "total_timesteps": 100000,
+  "episode_length": 96,
+  "move_qty": 10,
+  "k_candidates": 5,
+  "observation_dim": 229,
+  "action_dim": 26,
+  "seed": 42
+}

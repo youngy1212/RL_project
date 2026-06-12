@@ -1,0 +1,14 @@
+{
+  "district_id": 20,
+  "district_name": "관악구",
+  "station_count": 40,
+  "train_total_rental_demand": 41803.0,
+  "train_total_return_demand": 40702.0,
+  "total_timesteps": 100000,
+  "episode_length": 96,
+  "move_qty": 10,
+  "k_candidates": 5,
+  "observation_dim": 204,
+  "action_dim": 26,
+  "seed": 42
+}

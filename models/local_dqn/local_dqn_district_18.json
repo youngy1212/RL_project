@@ -1,0 +1,14 @@
+{
+  "district_id": 18,
+  "district_name": "영등포구",
+  "station_count": 91,
+  "train_total_rental_demand": 154332.0,
+  "train_total_return_demand": 155343.0,
+  "total_timesteps": 100000,
+  "episode_length": 96,
+  "move_qty": 10,
+  "k_candidates": 5,
+  "observation_dim": 459,
+  "action_dim": 26,
+  "seed": 42
+}

@@ -1,0 +1,14 @@
+{
+  "district_id": 22,
+  "district_name": "강남구",
+  "station_count": 73,
+  "train_total_rental_demand": 111042.0,
+  "train_total_return_demand": 107686.0,
+  "total_timesteps": 100000,
+  "episode_length": 96,
+  "move_qty": 10,
+  "k_candidates": 5,
+  "observation_dim": 369,
+  "action_dim": 26,
+  "seed": 42
+}

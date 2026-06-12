@@ -1,0 +1,14 @@
+{
+  "district_id": 7,
+  "district_name": "성북구",
+  "station_count": 47,
+  "train_total_rental_demand": 66146.0,
+  "train_total_return_demand": 65801.0,
+  "total_timesteps": 100000,
+  "episode_length": 96,
+  "move_qty": 10,
+  "k_candidates": 5,
+  "observation_dim": 239,
+  "action_dim": 26,
+  "seed": 42
+}

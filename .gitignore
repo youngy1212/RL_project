@@ -1,0 +1,21 @@
+# Python / local environment
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# macOS / editor files
+.DS_Store
+
+# Raw and processed datasets are intentionally excluded from GitHub.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Temporary presentation build workspace
+outputs/
+
+# Matplotlib cache
+.mplconfig/
+
